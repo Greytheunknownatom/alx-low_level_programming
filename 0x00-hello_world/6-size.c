@@ -2,7 +2,7 @@
 /**
  * main - print out sizes of various types in C
  * code by the noskshade
- *  Return: 0
+ * Return: 0
  */
 int main(void)
 {
@@ -12,10 +12,10 @@ int main(void)
 	long long int d;
 	float f;
 
-	puts("Size of a char: %lu byte(s)", (unsigned long)sizeof(a));
-	puts("Size of an int: %lu byte(s)", (unsigned long)sizeof(b));
-	puts("size of a long int: %lu byte(s)", (unsigned long)sizeof(c));
-	puts("Size of a long long int: %lu byte(s)", (unsigned long)sizeof(d));
-	puts("Size of a float: %lu byte(s)", (unsigned long)sizeof(f));
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(b));
+	printf("size of a long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 	return	(0);
 }
