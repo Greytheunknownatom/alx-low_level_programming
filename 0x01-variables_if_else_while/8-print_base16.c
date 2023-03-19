@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	char alp[16] = "0123456789ancdef";
+	char alp[16] = "0123456789abcdef";
 	int i;
 
 	for (i = 0; i < 16; i++)
