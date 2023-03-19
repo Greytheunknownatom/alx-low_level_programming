@@ -3,7 +3,7 @@
 /**
  * main-print all alphabets in lower case
  * code by thenoskshade
- * return: 0
+ * Return:0
 */
 int main(void)
 {
