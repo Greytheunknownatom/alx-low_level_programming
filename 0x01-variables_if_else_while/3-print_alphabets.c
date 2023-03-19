@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * main- print alphabets in lower case and then upper case
@@ -15,3 +16,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+}
