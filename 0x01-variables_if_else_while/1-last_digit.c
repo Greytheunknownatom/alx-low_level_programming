@@ -4,7 +4,7 @@
 /**
  *  main - printing last digit of number stored in the variable
  *  code by thenoskshade
- *  Return - 0
+ *  Return: 0
 */
 int main(void)
 {
