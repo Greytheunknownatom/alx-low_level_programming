@@ -6,19 +6,12 @@
 */
 int main(void)
 {
-	unsigned char a = '0';
+	char alp[16] = "0123456789ancdef";
 	int i;
 
-	for (i = 0; i, 10; i++)
+	for (i = 0; i < 16; i++)
 	{
-	putchar(a);
-	a++;
-	}
-	a = '1';
-	for (i = 0; i < 6; i++)
-	{
-	putchar('0' + a);
-	a++;
+		putchar(alp[i]);
 	}
 	putchar('\n');
 	return (0);
