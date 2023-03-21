@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * main - printing out alphabets in lowercase 
+ * print_alphabet - print the alphabets in lowercase
  * by thenoskshade
  * Return: 0
 */
+
 void print_alphabet(void)
 {
 	char nosk;
 
-	for (nosk = 'a'; nosk <= 'z'; nosk++)
-	{
+	for (nosk = 'a'; nosk <= 'z'; letter++)
 		_putchar(nosk);
-	}
-	-putchar('\n');
+
+	_putchar('\n');
 }
