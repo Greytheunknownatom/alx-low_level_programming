@@ -2,20 +2,16 @@
 /**
  * print_alphabet_x10 - prints alphabets x10 in lowercase
  * by thenoskshade
- * Return: 0
-*/
+*/ 
 void print_alphabet_x10(void)
 {
-	int nosk;
-	int nosk2;
-
-	for (nosk = 0; nosk <= 9; nosk++)
+	int nosk = 0;
+	char shade;
+									
+	while (nosk++ <= 9)
 	{
-		for (nosk2 = 'a'; nosk2 <= 'z'; nosk2++)
-		{
-			_putcha(nosk2);
-		}
-		-putchar('\n');
-		return (0);
+		for (shade = 'a'; shade <= 'z'; shade++)
+			_putchar(shade);
+		_putchar('\n')
 	}
 }
