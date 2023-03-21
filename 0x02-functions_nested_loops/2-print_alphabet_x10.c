@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 
 	for (nosk = 0; nosk <= 9; nosk++)
 	{
-		for (nosk2 = 'a' nosk2 <= 'z'; nosk2++)
+		for (nosk2 = 'a'; nosk2 <= 'z'; nosk2++)
 		{
 			_putcha(nosk2);
 		}
