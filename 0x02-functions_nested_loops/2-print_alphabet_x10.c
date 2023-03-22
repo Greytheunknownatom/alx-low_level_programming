@@ -1,17 +1,24 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - prints alphabets x10 in lowercase
+ * print_alphabet_x10 - prints 10 times of alphabets in lowercase
  * by thenoskshade
-*/ 
+*/
 void print_alphabet_x10(void)
 {
-	int nosk = 0;
-	char shade;
-									
-	while (nosk++ <= 9)
+	char nosk;
+	int shade;
+
+	shade = 0;
+
+	while (shade < 10)
 	{
-		for (shade = 'a'; shade <= 'z'; shade++)
-			_putchar(shade);
-		_putchar('\n')
+		nosk = 'a';
+		while (nosk <= 'z')
+		{
+			_putchar(nosk);
+			nosk++;
+		}
+		_putchar('\n');
+		shade++;
 	}
 }
