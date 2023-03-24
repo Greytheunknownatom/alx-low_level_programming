@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_numbers - function that prints numbers from 0 to 9,
+ * print_numbers - function that prints numbers from 0 to 9
  * followed by a new line
- * noskshading 
+ * noskshading
  * Return: void
 */
 void print_numbers(void)
