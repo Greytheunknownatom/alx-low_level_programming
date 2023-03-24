@@ -8,7 +8,7 @@
 */
 int _isupper(int c)
 {
-	if (isnosk(c))
+	if (isdigit(c))
 	{
 		return (1);
 	}
