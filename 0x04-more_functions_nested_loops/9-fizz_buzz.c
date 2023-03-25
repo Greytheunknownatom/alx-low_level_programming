@@ -12,7 +12,7 @@ int main(void)
 
 	for (e = 1; e <= 100; e++)
 	{
-		if ((e % 3 == 0) && (e % 5 != 0))
+		if (e % 3 == 0 && e % 5 != 0)
 		{
 			printf(" Fizz");
 		}
@@ -22,15 +22,15 @@ int main(void)
 		}
 		else if (e % 3 == 0 && e % 5 == 0)
 		{
-			printf(" FizzBuzz");
+			printf(" FizzBuzz ");
 		}
 		else if (e == 1)
 		{
-			printf(" %d",  e);
+			printf(" %d", e);
 		}
 		else
 		{
-			printf(" %d",  e);
+			printf(" %d", e);
 		}
 	}
 	printf("\n");
