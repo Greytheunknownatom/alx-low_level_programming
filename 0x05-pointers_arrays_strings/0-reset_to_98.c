@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * reset_to_98 - this function would update the value of a var using
+ * 0-reset_to_98.c - this function would update the value of a var using
  * pointer n
- * @n: int to update
+ * @*n: int to update
  * noskshading
  * Return: 0
 */
