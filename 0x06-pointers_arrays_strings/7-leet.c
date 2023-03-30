@@ -2,21 +2,21 @@
 /**
  * leet - function which encodes a string into 1337
  * @j: string to encode
- * Return: adress of s
+ * Return: adress of j
 */
 char *leet(char *j)
 {
-	int d, o;
+	int d, f;
 
-	char a[] = "aAeEoOtIL";
+	char a[] = "aAeEoOtTIl";
 	char b[] = "4433007711";
 
 	for (d = 0; *(j + d); d++)
 	{
-		for (o = 0; o <= 9; o++)
+		for (f = 0; f <= 10; f++)
 		{
-			if (a[o] == j[d])
-				j[d] = b[o];
+			if (a[f] == j[d])
+				j[d] = b[f];
 		}
 	}
 	return (j);

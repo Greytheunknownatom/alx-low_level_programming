@@ -9,16 +9,22 @@ char *cap_string(char *y)
 	int u = 0, p;
 	char a[] = " \t\n,;.!?\"(){}";
 
-	while (*(y + u) >= 'a' && *(y + u) <= 'z')
+	while (*(y + u))
 	{
-		if (u == 0)
-			*(y + u) -= 'a' - 'A';
-		else
+
+		if (*(y + u) >= 'a' && *(y + u) <= 'z')
 		{
-			for (p = 0; p <= 12; p++)
+
+			if (u == 0)
+				*(y + u) -= 'a' - 'A';
+			else
 			{
-				if (a[p] == *(y + u - 1))
-					*(y + u) -= 'a' - 'A';
+				for (p = 0; p <= 12; p++)
+				{
+				
+					if (a[p] == *(y + u - 1))
+						*(y + u) -= 'a' - 'A';
+				}
 			}
 		}
 		u++;
