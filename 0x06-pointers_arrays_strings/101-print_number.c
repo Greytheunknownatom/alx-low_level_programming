@@ -1,13 +1,13 @@
 #include "main.h"
 /**
-* _print_number - this function prints an integer
+* print_number - this function prints an integer
 * @n: numbers to print out
 * Return: void
 */
 void print_number(int n)
 {
 	unsigned int k;
-	
+
 	if (n < 0)
 	{
 		_putchar('-');

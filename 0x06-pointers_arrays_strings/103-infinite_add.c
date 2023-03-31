@@ -2,7 +2,7 @@
 /**
 * infinite_add - this function adds two numbers
 * where n1 and n2 are two numbers
-* @n1: numbers 
+* @n1: numbers
 * @n2: numbers
 * @r: buffer for result
 * @size_r: buffer size
@@ -13,9 +13,9 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	int k, j, d, b, q, h;
 
 	for (k = 0; n1[k]; k++)
-		
+
 	for (j = 0; n2[j]; j++)
-		
+
 	if (k > size_r || j > size_r)
 		return (0);
 	q = 0;
