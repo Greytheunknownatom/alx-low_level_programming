@@ -7,7 +7,7 @@
 * Return: length (s) from *accept
 */
 unsigned int _strspn(char *s, char *accept)
-{	
+{
 	int a = 0, c, e;
 
 	for (c = 0; s[c] != '\0'; c++)
@@ -21,7 +21,7 @@ unsigned int _strspn(char *s, char *accept)
 			}
 		}
 		else
-	
+
 		return (a);
 	}
 	return (a);
