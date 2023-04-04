@@ -17,7 +17,6 @@ char *_strstr(char *haystack, char *needle)
 				k++;
 			else
 				break;
-					
 		}
 		if (needle[k])
 		{
