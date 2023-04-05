@@ -4,6 +4,7 @@
 * the natural square root of a number
 * prototype of the function - int _sqrt_recursion(int n)
 * @n: int to find sqrt of
+* _intcheck: check
 * @o: int
 * @m: int
 * Return: int or return natural root or (-1)
@@ -12,7 +13,7 @@ int check(int o, int m)
 {
 	if (o * o == m)
 		return (o);
-	
+
 	if (o * o > m)
 		return (-1);
 
