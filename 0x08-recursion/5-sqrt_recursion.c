@@ -1,13 +1,9 @@
 #include "main.h"
 /**
-* _sqrt_recursion - this is a function that returns
-* the natural square root of a number
-* prototype of the function - int _sqrt_recursion(int n)
-* @n: int to find sqrt of
-* _intcheck: check
+* check - checks for square root
 * @o: int
 * @m: int
-* Return: int or return natural root or (-1)
+* Return: int
 */
 int check(int o, int m)
 {
@@ -19,7 +15,13 @@ int check(int o, int m)
 
 	return (check(o + 1, m));
 }
-
+/**
+* _sqrt_recursion - returns the natural square root of a
+* number
+* @n: integer to find suareroot of
+* Return: int or return natural root or (-1)
+* prototype of the function - int _sqrt_recursion(int n)
+*/
 int _sqrt_recursion(int n)
 {
 	if (n == 0)
