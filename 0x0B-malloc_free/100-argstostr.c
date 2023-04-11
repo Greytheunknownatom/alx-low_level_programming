@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _argstostr - this function links all the arguments of the program
+* argstostr - this function links all the arguments of the program
 * prototype of the function - char *argstostr(int ac, char **av);
 * @ac: argument count
 * @av: vector of argument
