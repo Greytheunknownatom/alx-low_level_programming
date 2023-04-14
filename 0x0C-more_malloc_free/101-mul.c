@@ -92,7 +92,7 @@ int main(int argc, char *argv[])
 	char *t;
 	char e[] = "Error\n";
 
-	if (argc != 3 || check_for_digits(argv)
+	if (argc != 3 || check_for_digits(argv))
 	{
 		for (ti = 0; e[ti]; ti++)
 			_putchar(e[ti]);
