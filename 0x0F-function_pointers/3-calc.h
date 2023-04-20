@@ -1,6 +1,7 @@
 #ifndef _HEADER
 #define _HEADER
-/** struct op -Struct op
+/**
+* struct op - Struct op
 * @op: the operator
 * @f: the associated function
 */
