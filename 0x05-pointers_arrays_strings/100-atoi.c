@@ -8,17 +8,18 @@
 int _atoi(char *s)
 {
 	int j = 0;
-	unsigned int li = 0;
-	int imo = 1;
-	int omi = 0;
 
-	while (s[j])
+	unsigned int li = 0;
+
+	int imo = 1;
+	
+	int omi = 0;while (s[j])
+	
 	{
 		if (s[j] == 45)
 		{
 			imo *= -1;
 		}
-
 		while (s[j] >= 48 && s[j] <= 57)
 		{
 			omi = 1;
