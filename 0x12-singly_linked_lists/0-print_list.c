@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <string.h>
 #include <stdio.h>
 #include "lists.h"
 /**
@@ -10,22 +8,15 @@
 */
 size_t print_list(const list_t *h)
 {
-	int count = 0;
+	size_t grey_nodes = 0;
+	const list_t *current = h;
 
-	while (h)
+	while (current != NULL)
 	{
-		if (h->str == NULL)
-		{
-			printf("[0] (nil)\n");
-		}
-		else
-
-		{
-		printf("[%d] %s\n", h->len, h->str);
-		}
-
-		count++;
-		h = h->next;
+		printf("[%d] %s\n", current->len,
+		current->str != NULL ? current->str : "(nil)");
+		current = current->next;
+		grey_nodes++;
 	}
-	return (count);
+	return (grey_nodes);
 }
