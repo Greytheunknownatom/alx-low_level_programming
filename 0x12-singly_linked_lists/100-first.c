@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* _first - print out a string
+* thenoskshader - print out a string
 */
 void thenoskshader(void) __attribute__ ((constructor));
 
