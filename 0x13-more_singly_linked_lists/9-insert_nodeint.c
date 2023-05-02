@@ -33,8 +33,8 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 		if (idx == 0)
 		{
-			fix_in->next = fix_in_2->next;
-			fix_in_2->next = fix_in;
+			fix_in->next = *head;
+			*head = fix_in;
 			return (fix_in);
 		}
 
