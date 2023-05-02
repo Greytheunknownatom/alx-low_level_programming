@@ -37,7 +37,14 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 			fix_in_2->next = fix_in;
 			return (fix_in);
 		}
+
+		if (call + 1 == idx)
+		{
+			fix_in->next = fix_in_2->next;
+			fix_in_2->next = fix_in;
+			return (fix_in);
+		}
 	}
 	free(fix_in);
-	return (NULL);
+	return (fix_in);
 }
